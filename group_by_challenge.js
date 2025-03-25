@@ -18,13 +18,26 @@ function groupBy(arr, prop){
 
 console.log(groupBy([
     
-        { name: 'Alice', age: 25, city: 'New York' },
-        { name: 'Bob', age: 30, city: 'Chicago' },
-        { name: 'Charlie', age: 35, city: 'New York' },
+        { name: 'Tony', age: 25, city: 'New York' },
+        { name: 'Ohallan', age: 30, city: 'Chicago' },
+        { name: 'Manny', age: 35, city: 'New York' },
         { name: 'Dave', age: 40, city: 'Chicago' }
         
 
                 ], 'city'))
+
+/*
+prints ->
+
+'Chicago':[
+{name: 'Ohallan', age: 30, city: 'Chicago'},
+{name: 'Dave', age: 40, city: 'Chicago'}
+       ]           
+
+'New York':[
+{name: 'Tony', age: 25, city: 'New York'},
+{name: 'Manny', age: 35, city: 'New York'}]
+*/
 
 
 
