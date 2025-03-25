@@ -1,4 +1,4 @@
-Group_by_Challenge
+Groupby_Challenge
 
 Description:
 
